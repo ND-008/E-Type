@@ -1,10 +1,6 @@
 # E-Type
 
-**E-Type** is an open source typing course written solely in C++. It’s designed to make fast and accurate typing accessible to everyone—free of charge, on any major desktop platform.
-
-## Description
-
-E-Type: An open source typing course written in C++ to help users improve their speed and accuracy, completely free and accessible to everyone.
+E-Type is an open source typing course that helps users improve keyboard speed and accuracy. Written entirely in C++, E-Type runs natively on Linux, Windows, and macOS and is available free to all.
 
 ## Features
 
