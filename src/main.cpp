@@ -1,5 +1,6 @@
 #include <iostream>
 
-int main(int, char**){
+int main(void) {
     std::cout << "Hello, from E-Type!\n";
+    return 0;
 }
