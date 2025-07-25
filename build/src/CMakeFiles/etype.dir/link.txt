@@ -1,1 +1,1 @@
-/usr/bin/aarch64-redhat-linux-g++ -g -Wl,--dependency-file=CMakeFiles/etype.dir/link.d CMakeFiles/etype.dir/main.cpp.o -o etype  app/libapp.a core/libcore.a ui/libui.a
+/usr/bin/aarch64-redhat-linux-g++ -g -O0 -Wall -Wextra -Wl,--dependency-file=CMakeFiles/etype.dir/link.d CMakeFiles/etype.dir/main.cpp.o -o etype  app/libapp.a core/libcore.a ui/libui.a

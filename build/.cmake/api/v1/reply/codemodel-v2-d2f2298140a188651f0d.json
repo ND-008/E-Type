@@ -11,10 +11,11 @@
 						1,
 						5
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e4cd89972ceda17073ee.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.10"
 					},
 					"projectIndex" : 0,
 					"source" : "."
@@ -30,7 +31,7 @@
 					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
@@ -45,7 +46,7 @@
 					"jsonFile" : "directory-src.app-Debug-2e167ed549b5f7501b6a.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.10"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 0,
@@ -60,7 +61,7 @@
 					"jsonFile" : "directory-src.core-Debug-36daa2e54a8600f0fb49.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.10"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 0,
@@ -75,7 +76,7 @@
 					"jsonFile" : "directory-src.ui-Debug-c1f78044602f134edac6.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.10"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 0,
@@ -90,7 +91,7 @@
 					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.10.0"
+						"string" : "3.10"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
@@ -130,35 +131,35 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "app::@ff93792cf40911dae1b8",
-					"jsonFile" : "target-app-Debug-28d289858f9f700cb54a.json",
+					"jsonFile" : "target-app-Debug-a25ab770ef1d60d213b1.json",
 					"name" : "app",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "core::@0618756b1ff51bca1a0e",
-					"jsonFile" : "target-core-Debug-d2ee182e4ce0c8549c47.json",
+					"jsonFile" : "target-core-Debug-6cd2e0bf70ab9f16a411.json",
 					"name" : "core",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "etype::@145eef247bfb46b6828c",
-					"jsonFile" : "target-etype-Debug-840d7ea43a72711a841f.json",
+					"jsonFile" : "target-etype-Debug-4f8ca3fa35113257d725.json",
 					"name" : "etype",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "test_main::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-test_main-Debug-e89bae1ba1da0b71c8f6.json",
+					"jsonFile" : "target-test_main-Debug-c2b233f723e5e1bec330.json",
 					"name" : "test_main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "ui::@e0ce1d6ecae3dc67b834",
-					"jsonFile" : "target-ui-Debug-c32429ff26476d806791.json",
+					"jsonFile" : "target-ui-Debug-26e2d6d70dc60174189b.json",
 					"name" : "ui",
 					"projectIndex" : 0
 				}

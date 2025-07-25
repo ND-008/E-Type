@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/nd008/Documents/E-Type/include/ui
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS = -g -O0 -Wall -Wextra -std=gnu++17
 

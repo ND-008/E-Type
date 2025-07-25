@@ -43,7 +43,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17"
+					"fragment" : "-g -O0 -Wall -Wextra -std=gnu++17"
 				}
 			],
 			"includes" : 

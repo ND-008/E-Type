@@ -1,37 +1,37 @@
 [
 {
   "directory": "/home/nd008/Documents/E-Type/build/src",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include -I/home/nd008/Documents/E-Type/include/app -I/home/nd008/Documents/E-Type/include/core -I/home/nd008/Documents/E-Type/include/ui -g -std=gnu++17 -o CMakeFiles/etype.dir/main.cpp.o -c /home/nd008/Documents/E-Type/src/main.cpp",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include -I/home/nd008/Documents/E-Type/include/app -I/home/nd008/Documents/E-Type/include/core -I/home/nd008/Documents/E-Type/include/ui -g -O0 -Wall -Wextra -std=gnu++17 -o CMakeFiles/etype.dir/main.cpp.o -c /home/nd008/Documents/E-Type/src/main.cpp",
   "file": "/home/nd008/Documents/E-Type/src/main.cpp",
   "output": "src/CMakeFiles/etype.dir/main.cpp.o"
 },
 {
   "directory": "/home/nd008/Documents/E-Type/build/src/app",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/app -g -std=gnu++17 -o CMakeFiles/app.dir/App.cpp.o -c /home/nd008/Documents/E-Type/src/app/App.cpp",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/app -g -O0 -Wall -Wextra -std=gnu++17 -o CMakeFiles/app.dir/App.cpp.o -c /home/nd008/Documents/E-Type/src/app/App.cpp",
   "file": "/home/nd008/Documents/E-Type/src/app/App.cpp",
   "output": "src/app/CMakeFiles/app.dir/App.cpp.o"
 },
 {
   "directory": "/home/nd008/Documents/E-Type/build/src/core",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/core -g -std=gnu++17 -o CMakeFiles/core.dir/Exercise.cpp.o -c /home/nd008/Documents/E-Type/src/core/Exercise.cpp",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/core -g -O0 -Wall -Wextra -std=gnu++17 -o CMakeFiles/core.dir/Exercise.cpp.o -c /home/nd008/Documents/E-Type/src/core/Exercise.cpp",
   "file": "/home/nd008/Documents/E-Type/src/core/Exercise.cpp",
   "output": "src/core/CMakeFiles/core.dir/Exercise.cpp.o"
 },
 {
   "directory": "/home/nd008/Documents/E-Type/build/src/core",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/core -g -std=gnu++17 -o CMakeFiles/core.dir/Lesson.cpp.o -c /home/nd008/Documents/E-Type/src/core/Lesson.cpp",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/core -g -O0 -Wall -Wextra -std=gnu++17 -o CMakeFiles/core.dir/Lesson.cpp.o -c /home/nd008/Documents/E-Type/src/core/Lesson.cpp",
   "file": "/home/nd008/Documents/E-Type/src/core/Lesson.cpp",
   "output": "src/core/CMakeFiles/core.dir/Lesson.cpp.o"
 },
 {
   "directory": "/home/nd008/Documents/E-Type/build/src/ui",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/ui -g -std=gnu++17 -o CMakeFiles/ui.dir/UI.cpp.o -c /home/nd008/Documents/E-Type/src/ui/UI.cpp",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include/ui -g -O0 -Wall -Wextra -std=gnu++17 -o CMakeFiles/ui.dir/UI.cpp.o -c /home/nd008/Documents/E-Type/src/ui/UI.cpp",
   "file": "/home/nd008/Documents/E-Type/src/ui/UI.cpp",
   "output": "src/ui/CMakeFiles/ui.dir/UI.cpp.o"
 },
 {
   "directory": "/home/nd008/Documents/E-Type/build/tests",
-  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include -I/home/nd008/Documents/E-Type/include/app -I/home/nd008/Documents/E-Type/include/core -I/home/nd008/Documents/E-Type/include/ui -g -std=gnu++17 -o CMakeFiles/test_main.dir/test_main.cpp.o -c /home/nd008/Documents/E-Type/tests/test_main.cpp",
+  "command": "/usr/bin/aarch64-redhat-linux-g++  -I/home/nd008/Documents/E-Type/include -I/home/nd008/Documents/E-Type/include/app -I/home/nd008/Documents/E-Type/include/core -I/home/nd008/Documents/E-Type/include/ui -g -O0 -Wall -Wextra -std=gnu++17 -o CMakeFiles/test_main.dir/test_main.cpp.o -c /home/nd008/Documents/E-Type/tests/test_main.cpp",
   "file": "/home/nd008/Documents/E-Type/tests/test_main.cpp",
   "output": "tests/CMakeFiles/test_main.dir/test_main.cpp.o"
 }
