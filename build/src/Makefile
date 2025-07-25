@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nd008/Documents/E-Type/build/CMakeFiles /home/nd008/Documents/E-Type/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/nd008/Documents/E-Type/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nd008/Documents/E-Type/build/CMakeFiles /home/nd008/Documents/E-Type/build/src//CMakeFiles/progress.marks
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nd008/Documents/E-Type/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,83 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nd008/Documents/E-Type/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named etype
+# Convenience name for target.
+src/CMakeFiles/etype.dir/rule:
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/etype.dir/rule
+.PHONY : src/CMakeFiles/etype.dir/rule
 
-# Build rule for target.
-etype: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 etype
+# Convenience name for target.
+etype: src/CMakeFiles/etype.dir/rule
 .PHONY : etype
 
 # fast build rule for target.
 etype/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/etype.dir/build.make src/CMakeFiles/etype.dir/build
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/etype.dir/build.make src/CMakeFiles/etype.dir/build
 .PHONY : etype/fast
 
-#=============================================================================
-# Target rules for targets named app
+main.o: main.cpp.o
+.PHONY : main.o
 
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
+# target to build an object file
+main.cpp.o:
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/etype.dir/build.make src/CMakeFiles/etype.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-# fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/build
-.PHONY : app/fast
+main.i: main.cpp.i
+.PHONY : main.i
 
-#=============================================================================
-# Target rules for targets named core
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/etype.dir/build.make src/CMakeFiles/etype.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-# Build rule for target.
-core: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core
-.PHONY : core
+main.s: main.cpp.s
+.PHONY : main.s
 
-# fast build rule for target.
-core/fast:
-	$(MAKE) $(MAKESILENT) -f src/core/CMakeFiles/core.dir/build.make src/core/CMakeFiles/core.dir/build
-.PHONY : core/fast
-
-#=============================================================================
-# Target rules for targets named ui
-
-# Build rule for target.
-ui: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ui
-.PHONY : ui
-
-# fast build rule for target.
-ui/fast:
-	$(MAKE) $(MAKESILENT) -f src/ui/CMakeFiles/ui.dir/build.make src/ui/CMakeFiles/ui.dir/build
-.PHONY : ui/fast
-
-#=============================================================================
-# Target rules for targets named test_main
-
-# Build rule for target.
-test_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_main
-.PHONY : test_main
-
-# fast build rule for target.
-test_main/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_main.dir/build.make tests/CMakeFiles/test_main.dir/build
-.PHONY : test_main/fast
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/nd008/Documents/E-Type/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/etype.dir/build.make src/CMakeFiles/etype.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -189,11 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... app"
-	@echo "... core"
 	@echo "... etype"
-	@echo "... test_main"
-	@echo "... ui"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -205,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nd008/Documents/E-Type/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

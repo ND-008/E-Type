@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore.a CMakeFiles/core.dir/Exercise.cpp.o CMakeFiles/core.dir/Lesson.cpp.o
+/usr/bin/ranlib libcore.a

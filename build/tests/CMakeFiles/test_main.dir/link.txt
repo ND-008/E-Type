@@ -1,0 +1,1 @@
+/usr/bin/aarch64-redhat-linux-g++ -g -Wl,--dependency-file=CMakeFiles/test_main.dir/link.d CMakeFiles/test_main.dir/test_main.cpp.o -o test_main  ../src/app/libapp.a ../src/core/libcore.a ../src/ui/libui.a

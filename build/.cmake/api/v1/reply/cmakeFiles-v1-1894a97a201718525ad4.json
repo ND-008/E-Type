@@ -190,6 +190,21 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "src/app/CMakeLists.txt"
+		},
+		{
+			"path" : "src/core/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ui/CMakeLists.txt"
+		},
+		{
+			"path" : "tests/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -11,6 +11,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
+  "/home/nd008/Documents/E-Type/src/CMakeLists.txt"
+  "/home/nd008/Documents/E-Type/src/app/CMakeLists.txt"
+  "/home/nd008/Documents/E-Type/src/core/CMakeLists.txt"
+  "/home/nd008/Documents/E-Type/src/ui/CMakeLists.txt"
+  "/home/nd008/Documents/E-Type/tests/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -50,9 +55,18 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/core/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/ui/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/E-Type.dir/DependInfo.cmake"
+  "src/CMakeFiles/etype.dir/DependInfo.cmake"
+  "src/app/CMakeFiles/app.dir/DependInfo.cmake"
+  "src/core/CMakeFiles/core.dir/DependInfo.cmake"
+  "src/ui/CMakeFiles/ui.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_main.dir/DependInfo.cmake"
   )
