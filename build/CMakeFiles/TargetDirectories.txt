@@ -1,0 +1,3 @@
+/home/nd008/Documents/E-Type/build/CMakeFiles/E-Type.dir
+/home/nd008/Documents/E-Type/build/CMakeFiles/edit_cache.dir
+/home/nd008/Documents/E-Type/build/CMakeFiles/rebuild_cache.dir

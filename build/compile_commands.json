@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nd008/Documents/E-Type/build",
+  "command": "/usr/bin/aarch64-redhat-linux-g++   -g -o CMakeFiles/E-Type.dir/main.cpp.o -c /home/nd008/Documents/E-Type/main.cpp",
+  "file": "/home/nd008/Documents/E-Type/main.cpp",
+  "output": "CMakeFiles/E-Type.dir/main.cpp.o"
+}
+]
